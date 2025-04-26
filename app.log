@@ -1,0 +1,5 @@
+2024-12-25 09:56:35,530 - __main__ - INFO - Processing email from: VETRIVEL MANI T <tvetrivelmani@gmail.com>
+2024-12-25 09:56:36,584 - pdf_processor - ERROR - Error cleaning DataFrame: 'DataFrame' object has no attribute 'str'
+2024-12-25 09:56:36,584 - pdf_processor - ERROR - Error extracting tables from PDF: 'DataFrame' object has no attribute 'str'
+2024-12-25 09:56:36,585 - __main__ - ERROR - Error processing message: 'DataFrame' object has no attribute 'str'
+2024-12-25 09:56:42,405 - email_handler - INFO - Sent error notification to VETRIVEL MANI T <tvetrivelmani@gmail.com>
