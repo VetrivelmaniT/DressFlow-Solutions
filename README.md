@@ -41,8 +41,8 @@ AutoDressOrder is a Python-based automation tool designed to streamline the dres
 ## 🚀 Setup Instructions
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/AutoDressOrder.git
+   bash
+   git clone https://github.com/VetrivelmaniT/DressFlow-Solutions
    cd AutoDressOrder
 Install dependencies
 
