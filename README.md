@@ -1,31 +1,31 @@
-# 🛍️ AutoDressOrder – Automated Email Order Processor
+#  AutoDressOrder – Automated Email Order Processor
 
 **AutoDressOrder** is a Python-based automation tool developed to streamline the dress shop's order processing. It automatically handles incoming order emails, extracts content from attached PDFs, generates a unique Customer Reference Number (CRN), stores data in MongoDB, and responds to the sender with processed documents.
 
 ---
 
-## 📦 Features
+##  Features
 
-- ✅ Automatically responds to the **first email** from: `vetrivelmaniv2m@gmail.com`
-- 📧 Extracts **email subject, body**, and **attached PDF**
-- 🔍 Parses PDFs for:
+-  Automatically responds to the **first email** from: `vetrivelmaniv2m@gmail.com`
+-  Extracts **email subject, body**, and **attached PDF**
+-  Parses PDFs for:
   - Text
   - Images
   - Tables
-- 📊 Splits tables into:
+-  Splits tables into:
   - `Communication Dimensions.xlsx`
   - `Specifications Table.xlsx` (with `Cost` and `Total` rows added)
-- 🧾 Generates a new PDF containing:
+-  Generates a new PDF containing:
   - Updated specifications
   - Order summary and visuals
-- 📬 Sends a confirmation email including:
+-  Sends a confirmation email including:
   - New PDF
   - Excel files
-- 🗂️ All data stored in **MongoDB**, organized by unique **CRN**
+-  All data stored in **MongoDB**, organized by unique **CRN**
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **IMAP / SMTP** – Email automation
@@ -37,7 +37,7 @@
 
 ---
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -49,7 +49,7 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-📁 Folder Structure
+ Folder Structure
 arduino
 Copy
 Edit
@@ -62,12 +62,12 @@ AutoDressOrder/
 ├── config.py
 ├── requirements.txt
 └── README.md
-✅ Output Example
+ Output Example
 After running the system:
 
-✅ Extracted Excel files: Communication Dimensions.xlsx, Specifications Table.xlsx
+ Extracted Excel files: Communication Dimensions.xlsx, Specifications Table.xlsx
 
-✅ Generated PDF with watermark and order summary
+ Generated PDF with watermark and order summary
 
 ✅ MongoDB entry: { CRN: <unique>, ...order_data }
 
