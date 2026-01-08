@@ -69,8 +69,8 @@ After running the system:
 
  Generated PDF with watermark and order summary
 
-✅ MongoDB entry: { CRN: <unique>, ...order_data }
+ MongoDB entry: { CRN: <unique>, ...order_data }
 
-✅ Confirmation email sent with attachments
+ Confirmation email sent with attachments
 
-📧 Contact Created by Vetrivel Mani T Email: tvetrivelmani@gmail.com Portfolio: https://vetrivel-mani-t-portfolio-com.vercel.app/
+ Contact Created by Vetrivel Mani T Email: tvetrivelmani@gmail.com Portfolio: https://vetrivel-mani-t-portfolio-com.vercel.app/
